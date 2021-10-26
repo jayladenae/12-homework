@@ -1,0 +1,26 @@
+{
+  "name": "12-homework",
+  "version": "1.0.0",
+  "description": "Employee Management System",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "0.10.0",
+    "inquirer": "8.2.0",
+    "mysql2": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayladenae/12-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayladenae/12-homework/issues"
+  },
+  "homepage": "https://github.com/jayladenae/12-homework#readme"
+}
