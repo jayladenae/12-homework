@@ -7,32 +7,32 @@ VALUES ("Police Administration"),
         ("Maintenance");
 
         
-INSERT INTO roles (title, salary, department_id)
-VALUES ("Administrator", 58000, 1),
-        ("Lieutenant", 85000, 2),
-        ("Homicide Detective", 79490, 3),
-        ("Criminal Investigator", 75000, 4),
-        ("Traffic Officer", 60000, 5),
-        ("Bounty Hunter", 65000, 6),
-        ("Forensics", 70000, 7),
-        ("Custodian", 45000, 8);
+INSERT INTO roles (id, title, salary, department_id)
+VALUES (405, "Administrator", 58000, 1),
+        (277, "Lieutenant", 85000, 2),
+        (666, "Homicide Detective", 79490, 3),
+        (695, "Criminal Investigator", 75000, 5),
+        (244, "Traffic Officer", 60000, 4),
+        (483, "Bounty Hunter", 65000, 5),
+        (562, "Forensics", 70000, 3),
+        (106, "Custodian", 45000, 6);
 
-INSERT INTO employee (first_name, last_name, role_id)
-VALUES ("Jayla", "Newton", 2),
-        ("Fabio", "Reyes", 1),
-        ("Lucifer", "Morningstar", 3),
-        ("Chloe", "Decker", 3),
-        ("Dan" "Espinoza", 5),
-        ("Mazikeen", "Smith", 6),
-        ("Ella", "Lopez", 7),
-        ("Trixie", "Espinoza", 1),
-        ("Linda", "Martin", 4),
-        ("Sinner", "Man", 4),
-        ("Charlotte", "Richards", 8),
-        ("Marcus", "Pierce", 8),
-        ("Father", "Kinley", 7),
-        ("God", "Himself", 6),
-        ("Amen", "Adiel", 5);
+INSERT INTO employee (id, first_name, last_name, role_id)
+VALUES (1, "Jayla", "Newton", 277),
+        (2, "Fabio", "Reyes", 405),
+        (3, "Lucifer", "Morningstar", 666),
+        (4, "Chloe", "Decker", 666),
+        (5, "Dan", "Espinoza", 244),
+        (6, "Mazikeen", "Smith", 483),
+        (7, "Ella", "Lopez", 562),
+        (8, "Trixie", "Espinoza", 405),
+        (9, "Linda", "Martin", 244),
+        (10, "Sinner", "Man", 106),
+        (11, "Charlotte", "Richards", 483),
+        (12, "Marcus", "Pierce", 106),
+        (13, "Father", "Kinley", 562),
+        (14, "God", "Himself", 695),
+        (15, "Amen", "Adiel", 695);
 
 
 
