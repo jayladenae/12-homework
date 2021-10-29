@@ -11,8 +11,5 @@ const connection = mysql.createConnection (
     console.log('Connected to the lucifer database.')
 );
 
-connection.connect(function (err) {
-    if (err) throw err;
-});
 
 module.exports = connection;
