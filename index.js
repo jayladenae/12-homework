@@ -181,7 +181,7 @@ async function addEmployee() {
         {
             type: 'input',
             name: 'employeeRole',
-            message: "From the table above, enter your new employee's role NUMBER:"
+            message: "From the table above, enter your new employee's role ID:"
         },
         {
             type: 'input',
