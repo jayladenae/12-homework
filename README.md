@@ -15,4 +15,4 @@ so that you can organize and plan your business.
 ![MIT License](https://img.shields.io/apm/l/PACK?style=plastic)
 
 ### Video Walkthrough
-[Link to video of me walking through the application]()
+[Link to video of me walking through the application](https://drive.google.com/file/d/1br5fB0odGwJoAnXUS_lejPCf4p66MgVG/view)
