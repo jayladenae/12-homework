@@ -7,15 +7,6 @@ connection.connect(function (err) {
     // menuPrompt();
 });
 
-//  function theArt () {
-//     art.font("Employee Management System", 'doom')
-//            .then((rendered)=>{
-//                //rendered is the ascii
-//                console.log(rendered);
-//            })
-//         };
-
-// theArt();
 menuPrompt();
 
 
